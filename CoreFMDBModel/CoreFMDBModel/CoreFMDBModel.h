@@ -36,42 +36,4 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-///**
-// *  查询数据(直接写条件，无需带关键字)
-// *
-// *  @param where            where
-// *  @param groupBy          groupBy
-// *  @param orderBy          orderBy
-//  *  @param limit            limit
-// *  @param selectResBlock   结果数组
-// */
-//+(void)selectUseWhere:(NSString *)where groupBy:(NSString *)groupBy orderBy:(NSString *)orderBy limit:(NSString *)limit selectResBlock:(void(^)(NSArray *selectRes))selectResBlock;
-//
-//
-//
-
-
-
-
 @end
