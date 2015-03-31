@@ -12,6 +12,7 @@
 #import "NSObject+Delete.h"
 #import "NSObject+Update.h"
 #import "NSObject+Save.h"
+#import "NSObject+Contrast.h"
 
 @interface CoreFMDBModel : NSObject
 
@@ -31,6 +32,15 @@
  *  父模型的hostID：此属性用于完成级联添加以及查询，框架将自动处理，请不要手动修改！
  */
 @property (nonatomic,assign,readonly) NSUInteger pid;
+
+
+
+
+
+
+
+
+
 
 
 

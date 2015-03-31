@@ -43,6 +43,7 @@
 		EE6B0C2A1AC95A4D001A0968 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6B0C1E1AC95A4D001A0968 /* FMDatabasePool.m */; };
 		EE6B0C2B1AC95A4D001A0968 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6B0C201AC95A4D001A0968 /* FMDatabaseQueue.m */; };
 		EE6B0C2C1AC95A4D001A0968 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6B0C231AC95A4D001A0968 /* FMResultSet.m */; };
+		EE7523FB1ACA3E8300281BD5 /* NSObject+Contrast.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7523FA1ACA3E8300281BD5 /* NSObject+Contrast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +130,8 @@
 		EE6B0C221AC95A4D001A0968 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		EE6B0C231AC95A4D001A0968 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		EE6B0C251AC95A4D001A0968 /* CoreFMDBSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreFMDBSingleton.h; sourceTree = "<group>"; };
+		EE7523F91ACA3E8300281BD5 /* NSObject+Contrast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Contrast.h"; sourceTree = "<group>"; };
+		EE7523FA1ACA3E8300281BD5 /* NSObject+Contrast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Contrast.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,6 +316,8 @@
 				EE6B0C0C1AC932CE001A0968 /* NSObject+Update.m */,
 				EE6B0C0E1AC94A0B001A0968 /* NSObject+Save.h */,
 				EE6B0C0F1AC94A0B001A0968 /* NSObject+Save.m */,
+				EE7523F91ACA3E8300281BD5 /* NSObject+Contrast.h */,
+				EE7523FA1ACA3E8300281BD5 /* NSObject+Contrast.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -512,6 +517,7 @@
 				EE5ABE161AC54F1500D05234 /* MJType.m in Sources */,
 				EE5ABE131AC54F1500D05234 /* MJConst.m in Sources */,
 				EE6B0C271AC95A4D001A0968 /* NSString+CoreFMDB.m in Sources */,
+				EE7523FB1ACA3E8300281BD5 /* NSObject+Contrast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

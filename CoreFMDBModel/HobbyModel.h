@@ -15,4 +15,6 @@
 
 @property (nonatomic,assign)  CGFloat cost;
 
+@property (nonatomic,assign) CGFloat spendMonney;
+
 @end

@@ -28,7 +28,7 @@
 //    [self insert];
     
 //    //inserts
-    [self inserts];
+//    [self inserts];
 //
 //    //select
 //    [self select];
@@ -42,7 +42,34 @@
     //update
 //    [self update];
     
-    [self save];
+//    [self save];
+    
+    [self contrast];
+}
+
+-(void)contrast{
+    
+    NewsListModel *newsListModel7 = [self modelWithStart:7 num:1].firstObject;
+    NewsListModel *newsListModel8 = [self modelWithStart:8 num:1].firstObject;
+    
+    NSArray *arr1=@[newsListModel7,newsListModel8];
+    
+    
+    NewsListModel *newsListModel9 = [self modelWithStart:7 num:1].firstObject;
+    newsListModel9.title=@"我是标题";
+    NewsListModel *newsListModel10 = [self modelWithStart:8 num:1].firstObject;
+    
+    NSArray *arr2=@[newsListModel10,newsListModel9];
+    
+    
+    
+    BOOL res = [NewsListModel contrastModels1:arr1 models2:arr2];
+    
+    if(res){
+        NSLog(@"一样");
+    }else{
+        NSLog(@"不一样");
+    }
 }
 
 
